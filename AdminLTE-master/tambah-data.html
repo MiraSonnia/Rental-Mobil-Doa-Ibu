@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | DataTables</title>
+  <title>Admin Rental Mobil Doa Ibu</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet"
@@ -70,7 +70,7 @@
             <a href="#" class="dropdown-item">
               <!-- Message Start -->
               <div class="media">
-                <img src="../../dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+                <img src="dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
                 <div class="media-body">
                   <h3 class="dropdown-item-title">
                     Brad Diesel
@@ -86,7 +86,7 @@
             <a href="#" class="dropdown-item">
               <!-- Message Start -->
               <div class="media">
-                <img src="../../dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                <img src="dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
                 <div class="media-body">
                   <h3 class="dropdown-item-title">
                     John Pierce
@@ -262,58 +262,30 @@
 
               </div>
               <!-- /.card -->
-              <a href="#" class="btn btn-block btn-outline-dark btn-lg" style="width: 160px;">Tambah Data</a>
-              <br>
-              <div class="card">
-                <!-- <div class="card-header">
-                <h3 class="card-title">Data Penyewaan Mobil</h3>
-              </div> -->
-                <!-- /.card-header -->
+              <form action="table.html" method="POST">
                 <div class="card-body">
-                  <table id="example1" class="table table-bordered table-striped">
-                    <thead>
-                      <tr>
-                        <th>Mobil</th>
-                        <th>Tahun</th>
-                        <th>Transaksi</th>
-                        <th>Jumlah</th>
-                        <th>Action</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Trident</td>
-                        <td>Internet
-                          Explorer 4.0
-                        </td>
-                        <td>Win 95+</td>
-                        <td> 4</td>
-                        <td><a href="Edit">Edit</a>&nbsp;&nbsp;<a
-                            href="Detail">Detail</a></td>
-                      </tr>
-                      <tr>
-                        <td>Trident</td>
-                        <td>Internet
-                          Explorer 4.0
-                        </td>
-                        <td>Win 95+</td>
-                        <td> 4</td>
-                        <td><a href="#">Edit</a>&nbsp;&nbsp;<a href="#">Detail</a></td>
-                      </tr>
-                      <tr>
-                        <td>Trident</td>
-                        <td>Internet
-                          Explorer 4.0
-                        </td>
-                        <td>Win 95+</td>
-                        <td> 4</td>
-                        <td><a href="#">Edit</a>&nbsp;&nbsp;<a href="#">Detail</a></td>
-
-                    </tbody>
-                  </table>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Mobil</label>
+                    <input type="text" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Tahun</label>
+                    <input type="number" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Transaksi</label>
+                    <input type="text" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Jumlah</label>
+                    <input type="text" class="form-control">
+                  </div>
                 </div>
                 <!-- /.card-body -->
-              </div>
+                <div class="card-footer">
+                  <button type="submit" class="btn btn-primary">Simpan</button>
+                </div>
+              </form>
               <!-- /.card -->
             </div>
             <!-- /.col -->
